@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Computational Network Biology and Systems Pharmacology 
+![alt text](/img/cool_random_network.png "")
 
 
 **Under** _construction_
