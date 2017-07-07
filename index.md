@@ -2,7 +2,8 @@
 layout: default
 ---
 
-![alt text](/img/cool_random_network.png "")
+<img src="/img/cool_random_network.png" width="250px">
+
 
 
 **Under** _construction_
