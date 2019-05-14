@@ -1,0 +1,66 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guillermo de Anda-Jáuregui on Guillermo de Anda-Jáuregui</title>
+    <link>https://guillermodeandajauregui.github.io/</link>
+    <description>Recent content in Guillermo de Anda-Jáuregui on Guillermo de Anda-Jáuregui</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My Projects</title>
+      <link>https://guillermodeandajauregui.github.io/project/my-projects/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://guillermodeandajauregui.github.io/project/my-projects/</guid>
+      <description>
+
+
+&lt;div id=&#34;network-biology-of-breast-cancer&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Network Biology of Breast Cancer:&lt;/h3&gt;
+&lt;p&gt;High-throughput, multi-omics data of breast cancer can be studied through the use of network approaches. Some of the things me and my colleagues have studied include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;How &lt;a href=&#34;https://www.frontiersin.org/articles/10.3389/fphys.2016.00568/full&#34;&gt;transcriptional networks capture the heterogeneity of breast cancer molecular subtypes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.frontiersin.org/articles/10.3389/fphys.2017.00915/full&#34;&gt;Differences in the modular structure of breast cancer networks&lt;/a&gt; and &lt;a href=&#34;https://www.frontiersin.org/articles/10.3389/fphys.2018.01423/full&#34;&gt;subtype-specific functions associated to certain subtypes of breast cancer&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The loss of &lt;a href=&#34;https://www.nature.com/articles/s41598-017-01314-1&#34;&gt;inter-chromosomal co-expression in breast cancer&lt;/a&gt;, and how &lt;a href=&#34;https://www.mdpi.com/1099-4300/21/2/195/htm&#34;&gt;information-theoretical approaches can be used to study this spatial organization phenomena&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The &lt;a href=&#34;https://www.hindawi.com/journals/ijg/2018/9585383/abs/&#34;&gt;emergence of non-redundant, highly connected (“commodore”) micro-RNAs, and their potential role in controlling functions in breast cancer&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;network-based-analysis-of-pathway-deregulation&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Network-based analysis of pathway deregulation:&lt;/h3&gt;
+&lt;p&gt;The pathways involved in necessary biological functions often exhibit alterations in pathological conditions. We have approached these alterations from a network perspective to study:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1476927115300712&#34;&gt;The diversity of pathway deregulation in breast cancer, and how it may affect the effects of anti-cancer drugs&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1476927118303700&#34;&gt;The off-site targets of novel anti-cancer agents&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://bmcsystbiol.biomedcentral.com/articles/10.1186/s12918-018-0674-7&#34;&gt;The changes in pathway connectivity observed in diabetic neuropathy&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;network-pharmacology-of-adverse-drug-reactions&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Network Pharmacology of Adverse Drug Reactions:&lt;/h3&gt;
+&lt;p&gt;Drugs may act on more than one site inside the organism. Sometimes this leads to adverse drug reactions, which may range from inconvenient to life-threatening. We have used network models to identify:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Some &lt;a href=&#34;https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12383&#34;&gt;gene targets that could be related to the manifestation of drug-induced peripheral neuropathy&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.frontiersin.org/articles/10.3389/fphys.2018.00151/full&#34;&gt;Repositioning opportunities for anti-inflammatory drugs&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.mdpi.com/1422-0067/20/2/386&#34;&gt;Drug combinations with higher risk of adverse drug reactions&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;metagenomics-systems-pharmacology-and-resistance&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Metagenomics, Systems Pharmacology and Resistance:&lt;/h3&gt;
+&lt;p&gt;As part of our Cátedra CONACYT project, we are interested in assessing the effects of antibiotic agents in microbial communities, and the way in which these interactions lead to the emergence of resistance.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-applications-of-network-data-and-complexity-sciences&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Other Applications of Network, Data, and Complexity Sciences:&lt;/h3&gt;
+&lt;p&gt;Some other topics that I have been exploring lately include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1808.07857&#34;&gt;Probabilistic multilayer networks&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://appliednetsci.springeropen.com/articles/10.1007/s41109-019-0128-1&#34;&gt;How to appropriately analyze and compare functional enrichment associated to modular structures in biological networks&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Disease spreading in multilayer networks.&lt;/li&gt;
+&lt;li&gt;The evolution of regulations regarding Genetically Modified Organisms in Mexico.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
