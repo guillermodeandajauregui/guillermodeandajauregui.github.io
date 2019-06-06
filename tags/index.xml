@@ -2,13 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Guillermo de Anda-Jáuregui</title>
-    <link>https://guillermodeandajauregui.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Guillermo de Anda-Jáuregui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://guillermodeandajauregui.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>conference</title>
+      <link>/tags/conference/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>netsci2019</title>
+      <link>/tags/netsci2019/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/netsci2019/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

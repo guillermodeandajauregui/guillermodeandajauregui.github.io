@@ -3,7 +3,67 @@
     
     <url>
     
-      <loc>https://guillermodeandajauregui.github.io/</loc>
+      <loc>/</loc>
+      <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/post/</loc>
+      <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/post/some-thoughts-after-netsci-2019/</loc>
+      <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/conference/</loc>
+      <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/netsci2019/</loc>
+      <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/project/my-projects/</loc>
+      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/project/</loc>
       <lastmod>2019-05-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -12,24 +72,7 @@
     
     <url>
     
-      <loc>https://guillermodeandajauregui.github.io/project/my-projects/</loc>
-      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://guillermodeandajauregui.github.io/project/</loc>
-      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://guillermodeandajauregui.github.io/tutorial/</loc>
+      <loc>/tutorial/</loc>
       <lastmod>2018-09-09T00:00:00-05:00</lastmod>
     </url>
     
@@ -37,14 +80,22 @@
     
     <url>
     
-      <loc>https://guillermodeandajauregui.github.io/author/admin/</loc>
+      <loc>/privacy/</loc>
+      <lastmod>2018-06-28T00:00:00-05:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://guillermodeandajauregui.github.io/authors/</loc>
+      <loc>/author/admin/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/</loc>
       <priority>0</priority>
     </url>
     
@@ -52,7 +103,7 @@
     
     <url>
     
-      <loc>https://guillermodeandajauregui.github.io/author/</loc>
+      <loc>/author/</loc>
       <priority>0</priority>
     </url>
     
@@ -60,7 +111,7 @@
     
     <url>
     
-      <loc>https://guillermodeandajauregui.github.io/categories/</loc>
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -68,14 +119,7 @@
     
     <url>
     
-      <loc>https://guillermodeandajauregui.github.io/post/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://guillermodeandajauregui.github.io/publication_types/</loc>
+      <loc>/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -83,29 +127,21 @@
     
     <url>
     
-      <loc>https://guillermodeandajauregui.github.io/publication/</loc>
+      <loc>/publication/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>https://guillermodeandajauregui.github.io/talk/</loc>
+      <loc>/talk/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>https://guillermodeandajauregui.github.io/tags/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://guillermodeandajauregui.github.io/authors/admin/</loc>
+      <loc>/authors/admin/</loc>
       <priority>0</priority>
     </url>
     

@@ -1,19 +1,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guillermo de Anda-Jáuregui on Guillermo de Anda-Jáuregui</title>
-    <link>https://guillermodeandajauregui.github.io/</link>
+    <link>/</link>
     <description>Recent content in Guillermo de Anda-Jáuregui on Guillermo de Anda-Jáuregui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Some thoughts after Netsci 2019</title>
+      <link>/post/some-thoughts-after-netsci-2019/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/some-thoughts-after-netsci-2019/</guid>
+      <description>
+
+
+&lt;p&gt;These are some final impressions after my first Netsci conference:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Logistics and organization were quite impressive. Satellites, parallel sessions and keynotes were all comfortable. Also, sessions were nearby, so slipping in and out was possible. No strong opinion on the lack of cookies during coffee breaks.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The quality of keynotes was excellent, covering many aspects relevant to network scientists. My personal favorite was &lt;a href=&#34;https://twitter.com/big_data_kane&#34;&gt;C. Brandon Ogbunu&lt;/a&gt; talk on epistasis.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Some research trends called my attention: particularly, the different Machine Learning techniques based on networks and network embeddings.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the field of network biology, the topics of controllability and stable motifs were highlighted. Speaking of NetBio, I felt that this community was slightly isolated from the main conference; particularly the BioMed-network community. The epidemiology and ecology people seemed to be more integrated. Makes me wonder what is our role in the greater Network Science community…&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The role of network science in society was a prevalent theme. Most keynote speakers touched on it: &lt;a href=&#34;https://twitter.com/duncanjwatts&#34;&gt;Duncan Watts&lt;/a&gt; and fake news; &lt;a href=&#34;https://twitter.com/tinaeliassi&#34;&gt;Tina Elissei&lt;/a&gt; saying that ethics belongs to the NetSci community; &lt;a href=&#34;https://twitter.com/hyejin_youn&#34;&gt;HyeJin Youn&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/eleanorapower&#34;&gt;Eleanor Power&lt;/a&gt; calling out against &lt;a href=&#34;https://www.theatlantic.com/daily-dish/archive/2010/10/western-educated-industrialized-rich-and-democratic/181667/&#34;&gt;WEIRD&lt;/a&gt; data… and there was the Network Science for Social Good satellite…&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Diversity was another important topic, driven by the Diversify Netsci satellite. It is very clear that there is a long way to go. My impression is that the attendants to the conference were predominantly USA-based (although they were less than 50%); maybe one step should be to diversify the discussion on diversity… but how to do so? That is a hard question… In any case, the conversation got started, which is always a good thing.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Related, a &lt;a href=&#34;https://twitter.com/redcompleja&#34;&gt;spanish-speaking community&lt;/a&gt; emerged during the conference, which may be a good starting point for joint efforts on shared goals.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I really enjoyed my Netsci 2019 experience. Burlington, VT is a beautiful place, and offered a great space to discuss network science. Until next time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>My Projects</title>
-      <link>https://guillermodeandajauregui.github.io/project/my-projects/</link>
+      <link>/project/my-projects/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://guillermodeandajauregui.github.io/project/my-projects/</guid>
+      <guid>/project/my-projects/</guid>
       <description>
 
 
@@ -59,6 +82,16 @@
 &lt;li&gt;The evolution of regulations regarding Genetically Modified Organisms in Mexico.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     

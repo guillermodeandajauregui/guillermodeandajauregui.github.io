@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Guillermo de Anda-Jáuregui</title>
-    <link>https://guillermodeandajauregui.github.io/project/</link>
+    <link>/project/</link>
     <description>Recent content in Projects on Guillermo de Anda-Jáuregui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://guillermodeandajauregui.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My Projects</title>
-      <link>https://guillermodeandajauregui.github.io/project/my-projects/</link>
+      <link>/project/my-projects/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://guillermodeandajauregui.github.io/project/my-projects/</guid>
+      <guid>/project/my-projects/</guid>
       <description>Network Biology of Breast Cancer: High-throughput, multi-omics data of breast cancer can be studied through the use of network approaches. Some of the things me and my colleagues have studied include:
  How transcriptional networks capture the heterogeneity of breast cancer molecular subtypes.
  Differences in the modular structure of breast cancer networks and subtype-specific functions associated to certain subtypes of breast cancer.
