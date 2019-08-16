@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Guillermo de Anda-Jáuregui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Some thoughts after LANET 2019</title>
+      <link>/post/some-thoughts-after-lanet-2019/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/some-thoughts-after-lanet-2019/</guid>
+      <description>LANET is a conference on the path to become the referent for network science in Latin America. These are some thoughts after participating in the second edition in Cartagena, Colombia:
+ The organizing committe did a good job with the general logistics. The venue was quite comfortable for most academic activities.
+ Transportation arrangements to and from the venue (located just outside the city of Cartagena) were adequate.
+ The lunch services gave us a nice taste of colombian food (arepas de huevo and carimañolas are awesome).</description>
+    </item>
     
     <item>
       <title>Some thoughts after Netsci 2019</title>
