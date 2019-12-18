@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guillermo de Anda-Jáuregui on Guillermo de Anda-Jáuregui</title>
@@ -5,8 +6,85 @@
     <description>Recent content in Guillermo de Anda-Jáuregui on Guillermo de Anda-Jáuregui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Computational Biology Week @INMEGEN</title>
+      <link>/post/the-computational-biology-week-inmegen/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-computational-biology-week-inmegen/</guid>
+      <description>
+
+
+&lt;p&gt;Last month, &lt;a href=&#34;https://twitter.com/hachepunto&#34;&gt;Dr. Hugo Tovar&lt;/a&gt; and I were chatting about computational biology and some common missunderstandings we’d experienced:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;That all CompBio people are interchangeable in our interests and skills.&lt;/li&gt;
+&lt;li&gt;That we were just waiting around for experimental biologists to share their data with us, with no research interests of our own.&lt;/li&gt;
+&lt;li&gt;That our role was closer to a service core facility than independent research.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We took the proactive approach, talked with the head of the department, &lt;a href=&#34;https://www.inmegen.gob.mx/investigacion/investigadores/curriculum-vitae/?perfil=19&#34;&gt;Dr. Claudia Rangel-Escareño&lt;/a&gt;, and decided to make an academic event, so that all the CompBio researchers at &lt;a href=&#34;https://www.inmegen.gob.mx&#34;&gt;INMEGEN&lt;/a&gt; could share our research, and particularly the kind of questions that really motivate us, with our experimental colleagues. And so, the Computational Biology Week was born.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-12-12-the-computational-biology-week-inmegen_files/crangel.jpeg&#34; style=&#34;width:50.0%&#34; /&gt; &lt;img src=&#34;/post/2019-12-12-the-computational-biology-week-inmegen_files/htovar.jpeg&#34; style=&#34;width:50.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We had a great deal of institutional support to make this work. Most importantly, every researcher of the department was very keen on joining the effort. We had a great turnout, with people from within the Institute, as well as many researchers and students from other Mexico City institutions.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;There was a nice variety of genomics-related computational biology topics such as:&lt;/p&gt;
+&lt;div id=&#34;transcriptomics-and-gene-co-expression&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Transcriptomics and gene (co) expression:&lt;/h3&gt;
+&lt;p&gt;Gene expression analyses are a popular computational topic among INMEGEN researchers. &lt;a href=&#34;http://csbig.inmegen.gob.mx/&#34;&gt;Enrique Hernández Lemus&lt;/a&gt; talked about his concept of &lt;em&gt;in grafo&lt;/em&gt; biology, in particular (frequentist) probabilistic network models in breast cancer. This was related to the work of &lt;a href=&#34;https://twitter.com/hachepunto&#34;&gt;Hugo Tovar&lt;/a&gt; on breast cancer master regulators, and &lt;a href=&#34;https://twitter.com/chuchoEspinal&#34;&gt;Dr. Jesus&lt;/a&gt; studies on changes in inter and intrachromosomal gene co-expression ( &lt;a href=&#34;https://www.nature.com/articles/s41598-017-01314-1&#34;&gt;the ones we’ve discussed&lt;/a&gt; &lt;a href=&#34;https://content.sciendo.com/view/journals/amns/4/1/article-p223.xml&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://www.mdpi.com/1099-4300/21/2/195/htm&#34;&gt;here&lt;/a&gt; )&lt;br /&gt;
+&lt;a href=&#34;https://www.inmegen.gob.mx/investigacion/investigadores/curriculum-vitae/?perfil=19&#34;&gt;Claudia Rangel-Escareño&lt;/a&gt; for her part, represented the Bayesian approach to transcriptional network modelling. &lt;a href=&#34;https://www.inmegen.gob.mx/investigacion/investigadores/curriculum-vitae/?perfil=6769&#34;&gt;Humberto Gutierrez González&lt;/a&gt; gave an alternative viewpoint, focusing on measurable functions when analyzing his co-expression network results.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-12-12-the-computational-biology-week-inmegen_files/jespi.jpeg&#34; style=&#34;width:50.0%&#34; /&gt;
+&lt;img src=&#34;/post/2019-12-12-the-computational-biology-week-inmegen_files/ehernandez.jpeg&#34; style=&#34;width:50.0%&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;population-genetics&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Population genetics:&lt;/h3&gt;
+&lt;p&gt;Another strong area of research at INMEGEN is population genetics. A major focus of this is related to the heterogeneity of the mexican population. &lt;a href=&#34;https://www.inmegen.gob.mx/investigacion/investigadores/curriculum-vitae/?perfil=536&#34;&gt;Sandra Romero&lt;/a&gt; and &lt;a href=&#34;https://www.inmegen.gob.mx/investigacion/investigadores/curriculum-vitae/?perfil=14&#34;&gt;Juan Carlos Fernández&lt;/a&gt; talked about the challenges in analyzing ancestry in the mexican population and developing &lt;a href=&#34;https://en.wikipedia.org/wiki/Ancestry-informative_marker&#34;&gt;Ancestry-Informative markers&lt;/a&gt;. &lt;a href=&#34;https://scholar.google.com/citations?user=3khb6PYAAAAJ&amp;amp;hl=es&#34;&gt;J. Víctor Moreno-Mayar&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/FSanchezQuinto&#34;&gt;Federico Sanchez Quinto&lt;/a&gt;, who recently joined the Institute, talked about precision medicine strategies that make use of paleogenomic and PopGen techniques, and novel strategies in data imputation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-12-12-the-computational-biology-week-inmegen_files/sromero.jpeg&#34; style=&#34;width:50.0%&#34; /&gt;
+&lt;img src=&#34;/post/2019-12-12-the-computational-biology-week-inmegen_files/fsquinto.jpeg&#34; style=&#34;width:50.0%&#34; /&gt;
+&lt;img src=&#34;/post/2019-12-12-the-computational-biology-week-inmegen_files/vmayar.jpeg&#34; style=&#34;width:50.0%&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;systems-biology-and-the-human-microbiome&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Systems biology and the human microbiome:&lt;/h3&gt;
+&lt;p&gt;The other cluster of research interests involves a large overlap between systems biology and studies on the human microbiome. &lt;a href=&#34;https://resendislab.github.io/about/&#34;&gt;Osbaldo Resendis&lt;/a&gt; showed some of his recent works in both microbiome and the systems biology of cancer. His colleague &lt;a href=&#34;https://www.linkedin.com/in/aar%C3%B3n-v%C3%A1zquez-jim%C3%A9nez-798473159/&#34;&gt;Aarón Vázquez Jiménez&lt;/a&gt; showed advances in models for cellular decision making using single-cell sequencing data. &lt;a href=&#34;https://scholar.google.com/citations?user=1Ud8j-UAAAAJ&amp;amp;hl=en&#34;&gt;Santiago Sandoval Motta&lt;/a&gt; talked about his models of the &lt;a href=&#34;https://www.frontiersin.org/articles/10.3389/fphys.2018.01836/full?report=reader&#34;&gt;role of microbiome in evolution&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-12-12-the-computational-biology-week-inmegen_files/ssandoval.jpeg&#34; style=&#34;width:50.0%&#34; /&gt;
+&lt;img src=&#34;/post/2019-12-12-the-computational-biology-week-inmegen_files/efdez.jpeg&#34; style=&#34;width:50.0%&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;proteins-experiments-cobasi-and-drugs&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Proteins, Experiments, COBASI, and drugs…&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/ruydg&#34;&gt;Rodrigo Dorantes-Gilardi&lt;/a&gt; talked about his work on protein structure and function &lt;a href=&#34;https://pubs.rsc.org/en/content/articlelanding/2018/cp/c8cp04530e#!divAbstract&#34;&gt;models&lt;/a&gt; using graph theory. &lt;a href=&#34;https://www.inmegen.gob.mx/investigacion/investigadores/curriculum-vitae/?perfil=5336&#34;&gt;Edith Fernandez&lt;/a&gt; talked about the experimental aspects of generating data to feed and validate computational models. &lt;a href=&#34;https://twitter.com/lawrah20&#34;&gt;Laura Lucila Gómez Romero&lt;/a&gt; showed us her &lt;a href=&#34;https://github.com/Laura-Gomez/COBASI&#34;&gt;COBASI&lt;/a&gt; method for the identification of de novo Single nucleotide Variants. I talked a little bit about my recent &lt;a href=&#34;https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12383&#34;&gt;systems&lt;/a&gt; &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1476927118303700?via%3Dihub&#34;&gt;pharmacology&lt;/a&gt; &lt;a href=&#34;https://www.mdpi.com/1422-0067/20/2/386&#34;&gt;projects&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-12-12-the-computational-biology-week-inmegen_files/lgomez.jpeg&#34; style=&#34;width:50.0%&#34; /&gt;
+&lt;img src=&#34;/post/2019-12-12-the-computational-biology-week-inmegen_files/rgilardi.jpeg&#34; style=&#34;width:50.0%&#34; /&gt;
+&lt;img src=&#34;/post/2019-12-12-the-computational-biology-week-inmegen_files/aaron.jpeg&#34; style=&#34;width:50.0%&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Overall, the experience preparing and participating in the Computational Biology Week was very fulfilling. I enjoyed listening to all my colleagues talking about their research interests; I hope some collaborations will emerge from this alone. The audience seemed to enjoy the talks as well, both those who were on-site as well as those who &lt;a href=&#34;https://www.youtube.com/watch?v=1ncqs34CVcg&#34;&gt;followed&lt;/a&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=-QmQ-7yDjy8&#34;&gt;them&lt;/a&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=ojflRrCwj0I&#34;&gt;online&lt;/a&gt;. I look forward for the next edition of this event, and hope that other computational biologist researchers might join us…&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-12-12-the-computational-biology-week-inmegen_files/compubiofest_sticker.jpg&#34; style=&#34;width:50.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;… And that we get to print our stickers on time, next time.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Some thoughts after LANET 2019</title>
+      <link>/post/some-thoughts-after-lanet-2019/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/some-thoughts-after-lanet-2019/</guid>
+      <description>
+
+
+&lt;p&gt;LANET is a conference on the path to become the referent for network science in Latin America. These are some thoughts after participating in the second edition in Cartagena, Colombia:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The organizing committe did a good job with the general logistics. The venue was quite comfortable for most academic activities.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Transportation arrangements to and from the venue (located just outside the city of Cartagena) were adequate.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The lunch services gave us a nice taste of colombian food (arepas de huevo and carimañolas are awesome).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Adjustments to the program were needed since the road to the conference was closed one morning. This was adequately handled, although 1) it was very hard for me to figure out the schedule after that and 2) some sessions became too long in order to accommodate all presentations.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The international school was excellent, addressing topics of interest for both experienced network scientists and researchers who have joined the field more recently. Perhaps in the future the school could be split into &lt;em&gt;fundamentals&lt;/em&gt; and &lt;em&gt;advanced topics&lt;/em&gt; in order to cater to each demographic more adequately.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Some posters were placed far from the main traffic area, making them less visited.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;As a network biologist, I really enjoyed the amount of biology and biomedicine works presented. Furthermore, I was quite happy with the fact that &lt;em&gt;fundamental&lt;/em&gt; (as opposed to &lt;em&gt;applied&lt;/em&gt;) network scientists participated in these sessions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An area of improvement for future editions could be the implementation of a code of conduct. Most of the interactions throughout the conference were quite nice, but here and there some less than savory language and tones could be heard. I hope that as time goes by, we can make this conference most accommodating for all network scientists of the region.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Some thoughts after Netsci 2019</title>

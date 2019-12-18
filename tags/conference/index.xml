@@ -6,10 +6,32 @@
     <description>Recent content in conference on Guillermo de Anda-Jáuregui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/conference/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Computational Biology Week @INMEGEN</title>
+      <link>/post/the-computational-biology-week-inmegen/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-computational-biology-week-inmegen/</guid>
+      <description>Last month, Dr. Hugo Tovar and I were chatting about computational biology and some common missunderstandings we’d experienced:
+ That all CompBio people are interchangeable in our interests and skills. That we were just waiting around for experimental biologists to share their data with us, with no research interests of our own. That our role was closer to a service core facility than independent research.  We took the proactive approach, talked with the head of the department, Dr.</description>
+    </item>
+    
+    <item>
+      <title>Some thoughts after LANET 2019</title>
+      <link>/post/some-thoughts-after-lanet-2019/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/some-thoughts-after-lanet-2019/</guid>
+      <description>LANET is a conference on the path to become the referent for network science in Latin America. These are some thoughts after participating in the second edition in Cartagena, Colombia:
+ The organizing committe did a good job with the general logistics. The venue was quite comfortable for most academic activities.
+ Transportation arrangements to and from the venue (located just outside the city of Cartagena) were adequate.
+ The lunch services gave us a nice taste of colombian food (arepas de huevo and carimañolas are awesome).</description>
+    </item>
     
     <item>
       <title>Some thoughts after Netsci 2019</title>
