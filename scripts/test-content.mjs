@@ -15,7 +15,7 @@ for(const file of all){
  if(raw.slice(end+5).trim().length===0) errors.push(`${file}: empty Markdown body`);
  for(const link of raw.matchAll(/\]\((\/[^)#?]+)\/??\)/g)){
    const id=link[1].replace(/^\/|\/$/g,'');
-   if(id && id!=='home' && !slugs.has(id)) errors.push(`${file}: local link ${link[1]} has no content page`);
+   if(id && id!=='home' && !slugs.has(id) && !fs.existsSync(path.join('public',id))) errors.push(`${file}: local link ${link[1]} has no content page`);
  }
 }
 if(!slugs.has('home')) errors.push('Missing content/home.md');

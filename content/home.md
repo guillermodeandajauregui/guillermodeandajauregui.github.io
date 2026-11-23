@@ -24,7 +24,7 @@ Science advances through shared ideas, transparent methods and independent verif
 
 ## What we work on
 
-Our current research spans [AI for cancer](/research/cancer/), [neurodegeneration and multiomics](/research/neuro/), [systems pharmacology](/research/pharmacology/), [microbiomics and infectious diseases](/research/microbiomics/), [network epidemiology, and computational public health](/research/phepi). Network science and complex-systems methods connect these areas.
+Our current research spans [AI for cancer](/research/cancer/), [neurodegeneration and multiomics](/research/neuro/), [systems pharmacology](/research/pharmacology/), [microbiomics and infectious diseases](/research/microbiomics/), [network epidemiology, and computational public health](/research/public-health/). Network science and complex-systems methods connect these areas.
 
 Our computational work is driven by open questions, interpretable methods and research partnerships that cross disciplinary boundaries.
 
