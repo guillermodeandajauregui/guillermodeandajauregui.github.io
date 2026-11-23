@@ -1,0 +1,24 @@
+{
+  "name": "research-website",
+  "private": true,
+  "type": "module",
+  "version": "0.4.0",
+  "scripts": {
+    "dev": "astro dev --host 0.0.0.0",
+    "build": "astro build",
+    "preview": "astro preview --host 0.0.0.0",
+    "check": "astro check",
+    "test:content": "node scripts/test-content.mjs",
+    "test:edit": "node scripts/test-live-edit.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.16.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}

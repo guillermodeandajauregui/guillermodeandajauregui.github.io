@@ -1,0 +1,58 @@
+{
+  "siteTitle": "Guillermo de Anda Jáuregui — Research",
+  "shortName": "GDAJ / Research",
+  "subtitle": "Computational biomedicine · Network science",
+  "footerText": "OPEN / FREE / COLLABORATIVE",
+  "navigation": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Research",
+      "path": "/research/"
+    },
+    {
+      "label": "Projects",
+      "path": "/projects/"
+    },
+    {
+      "label": "Publications",
+      "path": "/publications/"
+    },
+    {
+      "label": "Software",
+      "path": "/software/"
+    },
+    {
+      "label": "People",
+      "path": "/people/"
+    },
+    {
+      "label": "Notes",
+      "path": "/ideas-notes/"
+    }
+  ],
+  "socials": [
+    {
+      "label": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/guillermodeandajauregui"
+    },
+    {
+      "label": "Twitter / X",
+      "icon": "x",
+      "url": "https://twitter.com/gdeandajauregui"
+    },
+    {
+      "label": "Scholar",
+      "icon": "googlescholar",
+      "url": "https://scholar.google.com/citations?hl=en&user=PHmwH_AAAAAJ"
+    },
+    {
+      "label": "LinkedIn",
+      "icon": "linkedin",
+      "url": "https://mx.linkedin.com/in/guillermo-de-anda-j%C3%A1uregui-062764235"
+    }
+  ]
+}

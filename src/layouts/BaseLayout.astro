@@ -1,0 +1,66 @@
+---
+import siteSettings from '../../content/site.json';
+import {localUrl} from '../lib/urls';
+import '../styles/global.css';
+const { title=siteSettings.siteTitle, description='Research in computational biomedicine, network science and systems biology.' } = Astro.props;
+const current = Astro.url.pathname;
+const isCurrent = (path: string) => path === '/' ? current === localUrl('/') : current.startsWith(localUrl(path));
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#11171c" />
+    <meta name="description" content={description}/>
+    <meta property="og:title" content={title}/>
+    <meta property="og:description" content={description}/>
+    <link rel="icon" type="image/svg+xml" href={localUrl('/favicon.svg')}/>
+    <title>{title}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner container">
+        <a class="site-brand" href={localUrl('/')} aria-label="Home">
+          <img
+  class="brand-logo"
+  src={localUrl('/logo.svg')}
+  alt=""
+  width="42"
+  height="42"
+/>
+          <span class="brand-name">{siteSettings.shortName}</span>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+          {siteSettings.navigation.map(item=><a class:list={[{active:isCurrent(item.path)}]} href={localUrl(item.path)} aria-current={isCurrent(item.path)?'page':undefined}>{item.label}</a>)}
+        </nav>
+      </div>
+    </header>
+    <main id="main-content"><slot /></main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div><span class="footer-label">{siteSettings.footerText}</span><p>{siteSettings.subtitle}</p></div>
+        <div class="footer-social" aria-label="Social profiles">
+  {siteSettings.socials.map(link => (
+    <a
+      href={link.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={link.label}
+      title={link.label}
+    >
+      <img
+        src={localUrl(`/icons/${link.icon}.svg`)}
+        alt=""
+        width="20"
+        height="20"
+      />
+    </a>
+  ))}
+</div>
+        <span class="footer-copyright">© {new Date().getFullYear()}</span>
+      </div>
+    </footer>
+  </body>
+</html>

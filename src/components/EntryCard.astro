@@ -1,0 +1,8 @@
+---
+import {localUrl} from '../lib/urls';
+const {entry, index=0, kind='FIELD'} = Astro.props;
+---
+<a class="entry-card" href={localUrl(`/${entry.id}/`)}>
+  <div class="entry-art" aria-hidden="true"><span class="entry-art-orbit orbit-one"></span><span class="entry-art-orbit orbit-two"></span><span class="entry-art-dot"></span><span class="entry-art-code">{String(index+1).padStart(2,'0')}</span></div>
+  <div class="entry-body"><span class="micro-label">{entry.data.status || kind} / {String(index+1).padStart(2,'0')}</span><h3>{entry.data.title}</h3><p>{entry.data.description || entry.data.subtitle || 'Read more about this research line.'}</p><span class="card-arrow" aria-hidden="true">↗</span></div>
+</a>

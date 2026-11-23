@@ -1,0 +1,40 @@
+---
+import graph from '../data/karate.json';
+const byId = new Map(graph.nodes.map(n=>[n.id,n]));
+---
+<div class="graph-frame" data-karate-graph aria-label="Interactive Zachary karate club network graph">
+ <div class="graph-topline"><span><span class="live-indicator"></span> NETWORK OBSERVATORY</span><span>G / 01</span></div>
+ <svg viewBox="0 0 480 440" role="img" aria-label="Zachary karate club graph with 34 nodes and 78 edges. Hover or select a vertex to see its neighbors.">
+   <g class="graph-edges">{graph.edges.map(edge=><line data-a={edge[0]} data-b={edge[1]} x1={byId.get(edge[0]).x} y1={byId.get(edge[0]).y} x2={byId.get(edge[1]).x} y2={byId.get(edge[1]).y}/>)}</g>
+   <g class="graph-nodes">{graph.nodes.map(n=><g class="graph-vertex" data-node={n.id} tabindex="0" role="button" aria-label={`Vertex ${n.id+1}, ${n.club}, degree ${n.degree}`}><circle class:list={[n.club==='Mr. Hi'?'node-hi':'node-officer']} cx={n.x} cy={n.y} r={n.degree>=10?8:5.5}/><title>{`Vertex ${n.id+1}: ${n.club}; ${n.degree} connections`}</title></g>)}</g>
+ </svg>
+ <div class="graph-meta"><div><strong>34</strong><small>NODES</small></div><div><strong>78</strong><small>EDGES</small></div><div><strong>02</strong><small>FACTIONS</small></div></div>
+ <div class="graph-detail" aria-live="polite">Hover / select a vertex to inspect its neighbors</div>
+ <div class="graph-legend"><span><i class="legend-hi"></i> Mr. Hi</span><span><i class="legend-officer"></i> Officer</span><button type="button" class="graph-reset" data-reset>Reset ↺</button></div>
+</div>
+<script>
+  import graph from '../data/karate.json';
+  document.querySelectorAll('[data-karate-graph]').forEach(root=>{
+    const vertices=[...root.querySelectorAll<SVGGElement>('[data-node]')];
+    const edges=[...root.querySelectorAll<SVGLineElement>('[data-a]')];
+    const detail=root.querySelector<HTMLElement>('.graph-detail');
+    const neighbors=new Map<number,Set<number>>(graph.nodes.map(n=>[n.id,new Set<number>()]));
+    for(const [a,b] of graph.edges) { neighbors.get(a)?.add(b); neighbors.get(b)?.add(a); }
+    let pinned:number|null=null;
+    function highlight(id:number|null) {
+      for(const el of vertices){const n=Number(el.dataset.node);el.classList.toggle('dimmed',id!==null && n!==id && !neighbors.get(id)?.has(n));el.classList.toggle('highlighted',id!==null && n===id);}
+      for(const el of edges){el.classList.toggle('dimmed',id!==null && Number(el.dataset.a)!==id && Number(el.dataset.b)!==id);el.classList.toggle('highlighted',id!==null && (Number(el.dataset.a)===id || Number(el.dataset.b)===id));}
+      if(detail) detail.textContent=id===null?'Hover / select a vertex to inspect its neighbors':`Vertex ${id+1} · ${graph.nodes[id].club} · ${graph.nodes[id].degree} connections`;
+    }
+    vertices.forEach(el=>{
+      const n=Number(el.dataset.node);
+      el.addEventListener('pointerenter',()=>{if(pinned===null) highlight(n);});
+      el.addEventListener('pointerleave',()=>{if(pinned===null) highlight(null);});
+      el.addEventListener('focus',()=>{if(pinned===null) highlight(n);});
+      el.addEventListener('blur',()=>{if(pinned===null) highlight(null);});
+      el.addEventListener('click',()=>{pinned=pinned===n?null:n;highlight(pinned);});
+      el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();pinned=pinned===n?null:n;highlight(pinned);}});
+    });
+    root.querySelector('[data-reset]')?.addEventListener('click',()=>{pinned=null;highlight(null);});
+  });
+</script>

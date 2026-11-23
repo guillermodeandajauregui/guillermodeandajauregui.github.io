@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EntryCard from '../components/EntryCard.astro';
+import {getCollection,render} from 'astro:content';
+import {localUrl} from '../lib/urls';
+export async function getStaticPaths(){
+  const entries=await getCollection('pages');
+  return entries.filter(entry=>entry.id!=='home').map(entry=>({params:{slug:entry.id},props:{entry}}));
+}
+const {entry}=Astro.props;
+const {Content}=await render(entry);
+const entries=await getCollection('pages');
+const nested=entries.filter(p=>p.id.startsWith(`${entry.id}/`) && p.id.slice(entry.id.length+1).indexOf('/')===-1).sort((a,b)=>(a.data.order??99)-(b.data.order??99));
+const ancestors=entry.id.split('/');
+---
+<BaseLayout title={`${entry.data.title} — Research`} description={entry.data.description || entry.data.subtitle}>
+ <section class="container page-head"><div class="eyebrow"><span class="eyebrow-stripe"></span>{entry.data.eyebrow || 'RESEARCH / INDEX'}</div><div class="crumbs"><a href={localUrl('/')}>Home</a> / {ancestors.length>1 && <><a href={localUrl(`/${ancestors[0]}/`)}>{ancestors[0]}</a> / </>}<span>{entry.data.title}</span></div><h1>{entry.data.title}</h1>{entry.data.subtitle && <p class="page-subtitle">{entry.data.subtitle}</p>}{entry.data.description && <p class="page-description">{entry.data.description}</p>}</section>
+ <section class="container page-main"><article class="prose"><Content /></article></section>
+ {nested.length>0 && <section class="container index-section child-section"><div class="section-top"><span class="section-kicker">EXPLORE / {entry.data.title.toUpperCase()}</span></div><div class="entry-grid">{nested.map((item,i)=><EntryCard entry={item} index={i} kind="RESEARCH" />)}</div></section>}
+</BaseLayout>
